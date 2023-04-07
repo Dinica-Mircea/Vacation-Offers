@@ -1,0 +1,287 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26447",
+          "message": {
+            "text": "The function is declared 'noexcept' but calls function 'obtine_toate_ofertele()' which may throw exceptions (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferte_store.h"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 10,
+                  "endLine": 29,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferte_store::obtine_toate_ofertele",
+                  "decoratedName": "?obtine_toate_ofertele@Oferte_store@@QEAAAEBV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26489",
+          "message": {
+            "text": "Don't dereference a pointer that may be invalid: 'allotemp.2'. '(temporary 2)' may have been invalidated at line 42 (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferte_store.h"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 3,
+                  "endLine": 42,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferte_store::gaseste_oferta",
+                  "decoratedName": "?gaseste_oferta@Oferte_store@@QEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferte_store.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26487",
+          "message": {
+            "text": "Don't return a pointer '(40's result)' that may be invalid (lifetime.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferte_store.h"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 3,
+                  "endLine": 42,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferte_store::gaseste_oferta",
+                  "decoratedName": "?gaseste_oferta@Oferte_store@@QEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferte_store.h"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26477",
+          "message": {
+            "text": "Use 'nullptr' rather than 0 or NULL (es.47)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/Agentie_de_turism.cpp"
+                },
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 39,
+                  "endLine": 34,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "isSimpleExpression": "true"
+          }
+        },
+        {
+          "ruleId": "C26472",
+          "message": {
+            "text": "Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/Agentie_de_turism.cpp"
+                },
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 11,
+                  "endLine": 34,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31329.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferte_store.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8d48763b99b41563e3131cc604368b48441a8a29ceefe54a4433baf56c49ecc3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/Agentie_de_turism.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "4b760d0be9908c2c54fc88337c4db41be3b976a8233d410bfce7407472a352b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/ubb/anul_1/sem_2/oop/lab 8-9/agentie_de_turism-lab 8-9/agentie_de_turism/oferta.h"
+          },
+          "hashes": {
+            "sha-256": "449a542665c72692a0f7e4c8d11bd8c70ed68b5fa6bdbe8c8c8aec7fea779e4b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/ubb/anul_1/sem_2/oop/lab 8-9/agentie_de_turism-lab 8-9/agentie_de_turism/oferte_repo.h"
+          },
+          "hashes": {
+            "sha-256": "1fc9888546240b43899fd1dfc6983b3d4871b58aef77389a0e50fb2cc74d06a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/ubb/anul_1/sem_2/oop/lab 8-9/agentie_de_turism-lab 8-9/agentie_de_turism/vector_dinamic.h"
+          },
+          "hashes": {
+            "sha-256": "ed927b0a5543cd6f24765f8de89f7c107c4d7b945c5545958166b66bfd5fd51a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/ubb/anul_1/sem_2/oop/lab 8-9/agentie_de_turism-lab 8-9/agentie_de_turism/interfata_utilizator.h"
+          },
+          "hashes": {
+            "sha-256": "b03f53979ba491b2c70eb416f9d7e49dd95a7c84d630c2798039c03a3c27a88a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/ubb/anul_1/sem_2/oop/lab 8-9/agentie_de_turism-lab 8-9/agentie_de_turism/wishlist.h"
+          },
+          "hashes": {
+            "sha-256": "713691204dd04ddfc20d1020e2f88a7b72b9cb9181b27a322a2eb07fd8205fd4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/ubb/anul_1/sem_2/oop/lab 8-9/agentie_de_turism-lab 8-9/agentie_de_turism/validator.h"
+          },
+          "hashes": {
+            "sha-256": "87296864cf68b2be4fd14667905b0ffa9593a2f83963ac4ec30b63aa10c69a4d"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.h</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26447</DEFECTCODE>
+    <DESCRIPTION>The function is declared 'noexcept' but calls function 'obtine_toate_ofertele()' which may throw exceptions (f.6).</DESCRIPTION>
+    <FUNCTION>Oferte_store::obtine_toate_ofertele</FUNCTION>
+    <DECORATED>?obtine_toate_ofertele@Oferte_store@@QEAAAEBV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@XZ</DECORATED>
+    <FUNCLINE>28</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.h</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'allotemp.2'. '(temporary 2)' may have been invalidated at line 42 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Oferte_store::gaseste_oferta</FUNCTION>
+    <DECORATED>?gaseste_oferta@Oferte_store@@QEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>40</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.h</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.h</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26487</DEFECTCODE>
+    <DESCRIPTION>Don't return a pointer '(40's result)' that may be invalid (lifetime.4).</DESCRIPTION>
+    <FUNCTION>Oferte_store::gaseste_oferta</FUNCTION>
+    <DECORATED>?gaseste_oferta@Oferte_store@@QEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>40</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.h</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>Agentie_de_turism.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26477</DEFECTCODE>
+    <DESCRIPTION>Use 'nullptr' rather than 0 or NULL (es.47).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <ADDITIONALINFO>
+      <isSimpleExpression>true</isSimpleExpression>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>Agentie_de_turism.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26472</DEFECTCODE>
+    <DESCRIPTION>Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

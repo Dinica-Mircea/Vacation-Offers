@@ -1,0 +1,43 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31329.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/ubb/anul_1/sem_2/oop/lab 8-9/agentie_de_turism-lab 8-9/agentie_de_turism/oferta.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "0a3aa63898bfb5f90d0a39ba83aa280224d542eab60fd0843721849d356ce2bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/ubb/anul_1/sem_2/oop/lab 8-9/agentie_de_turism-lab 8-9/agentie_de_turism/oferta.h"
+          },
+          "hashes": {
+            "sha-256": "449a542665c72692a0f7e4c8d11bd8c70ed68b5fa6bdbe8c8c8aec7fea779e4b"
+          }
+        }
+      ]
+    }
+  ]
+}

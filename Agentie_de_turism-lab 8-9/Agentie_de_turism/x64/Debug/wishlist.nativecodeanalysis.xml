@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>wishlist.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>wishlist_oferte::genereaza_cos</FUNCTION>
+    <DECORATED>?genereaza_cos@wishlist_oferte@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>wishlist.cpp</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>wishlist_oferte::genereaza_cos</FUNCTION>
+    <DECORATED>?genereaza_cos@wishlist_oferte@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>wishlist.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>wishlist.cpp</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>wishlist_oferte::genereaza_cos</FUNCTION>
+    <DECORATED>?genereaza_cos@wishlist_oferte@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>wishlist.cpp</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

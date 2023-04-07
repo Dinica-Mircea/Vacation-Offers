@@ -1,0 +1,1515 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26436",
+          "message": {
+            "text": "The type 'class Oferte_repo' with a virtual function needs either public virtual or protected non-virtual destructor (c.35)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 19,
+                  "endLine": 18,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferte_repo::adauga_oferta",
+                  "decoratedName": "?adauga_oferta@Oferte_repo@@UEAAXAEBVOferta@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26489",
+          "message": {
+            "text": "Don't dereference a pointer that may be invalid: 'allotemp.4'. '(temporary 4)' may have been invalidated at line 38 (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 4,
+                  "endLine": 38,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferte_repo::gaseste_oferta",
+                  "decoratedName": "?gaseste_oferta@Oferte_repo@@UEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26487",
+          "message": {
+            "text": "Don't return a pointer '(32's result)' that may be invalid (lifetime.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 4,
+                  "endLine": 38,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferte_repo::gaseste_oferta",
+                  "decoratedName": "?gaseste_oferta@Oferte_repo@@UEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 35,
+                  "endLine": 34,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferte_repo::gaseste_oferta",
+                  "decoratedName": "?gaseste_oferta@Oferte_repo@@UEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Oferte_repo::obtine_toate_ofertele' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 36,
+                  "endLine": 46,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferte_repo::obtine_toate_ofertele",
+                  "decoratedName": "?obtine_toate_ofertele@Oferte_repo@@UEAAAEBV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26489",
+          "message": {
+            "text": "Don't dereference a pointer that may be invalid: '*<begin>$L0'. '<begin>$L0' may have been invalidated at line 58 (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 35,
+                  "endLine": 53,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferte_repo::sterge_oferta",
+                  "decoratedName": "?sterge_oferta@Oferte_repo@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@(*this).toate_ofertele' in call to 'Oferta::Oferta' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 35,
+                  "endLine": 53,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferte_repo::sterge_oferta",
+                  "decoratedName": "?sterge_oferta@Oferte_repo@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 35,
+                  "endLine": 53,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferte_repo::sterge_oferta",
+                  "decoratedName": "?sterge_oferta@Oferte_repo@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Oferte_repo::distruge_toate_ofertele' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 19,
+                  "endLine": 70,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferte_repo::distruge_toate_ofertele",
+                  "decoratedName": "?distruge_toate_ofertele@Oferte_repo@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26457",
+          "message": {
+            "text": "(void) should not be used to ignore return values, use 'std::ignore =' instead (es.48)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 2,
+                  "endLine": 72,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferte_repo::distruge_toate_ofertele",
+                  "decoratedName": "?distruge_toate_ofertele@Oferte_repo@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26433",
+          "message": {
+            "text": "Function 'Oferte_repo::undo' should be marked with 'override' (c.128)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 182,
+                  "startColumn": 19,
+                  "endLine": 182,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferte_repo::undo",
+                  "decoratedName": "?undo@Oferte_repo@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'result.->' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 186,
+                  "startColumn": 2,
+                  "endLine": 186,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferte_repo::undo",
+                  "decoratedName": "?undo@Oferte_repo@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 182,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 186,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 186,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 186,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 221,
+                  "startColumn": 35,
+                  "endLine": 221,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferte_repo::modifica_destinatie_oferta",
+                  "decoratedName": "?modifica_destinatie_oferta@Oferte_repo@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 221,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 238,
+                  "startColumn": 35,
+                  "endLine": 238,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferte_repo::modifica_tip_oferta",
+                  "decoratedName": "?modifica_tip_oferta@Oferte_repo@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 238,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 256,
+                  "startColumn": 35,
+                  "endLine": 256,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Oferte_repo::modifica_pret_oferta",
+                  "decoratedName": "?modifica_pret_oferta@Oferte_repo@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 256,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26436",
+          "message": {
+            "text": "The type 'class Repo_probabilitate_random' with a virtual function needs either public virtual or protected non-virtual destructor (c.35)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 285,
+                  "startColumn": 33,
+                  "endLine": 285,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo_probabilitate_random::undo",
+                  "decoratedName": "?undo@Repo_probabilitate_random@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'result.->' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 291,
+                  "startColumn": 2,
+                  "endLine": 291,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo_probabilitate_random::undo",
+                  "decoratedName": "?undo@Repo_probabilitate_random@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 285,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 286,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 288,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 288,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 291,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 291,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 291,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26433",
+          "message": {
+            "text": "Function 'Repo_probabilitate_random::gaseste_oferta' should be marked with 'override' (c.128)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 311,
+                  "startColumn": 42,
+                  "endLine": 311,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo_probabilitate_random::gaseste_oferta",
+                  "decoratedName": "?gaseste_oferta@Repo_probabilitate_random@@UEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26489",
+          "message": {
+            "text": "Don't dereference a pointer that may be invalid: 'allotemp.4'. '(temporary 4)' may have been invalidated at line 320 (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 320,
+                  "startColumn": 4,
+                  "endLine": 320,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo_probabilitate_random::gaseste_oferta",
+                  "decoratedName": "?gaseste_oferta@Repo_probabilitate_random@@UEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 320,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26487",
+          "message": {
+            "text": "Don't return a pointer '(311's result)' that may be invalid (lifetime.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 320,
+                  "startColumn": 4,
+                  "endLine": 320,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo_probabilitate_random::gaseste_oferta",
+                  "decoratedName": "?gaseste_oferta@Repo_probabilitate_random@@UEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 320,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 316,
+                  "startColumn": 35,
+                  "endLine": 316,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo_probabilitate_random::gaseste_oferta",
+                  "decoratedName": "?gaseste_oferta@Repo_probabilitate_random@@UEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 316,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Repo_probabilitate_random::obtine_toate_ofertele' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 328,
+                  "startColumn": 50,
+                  "endLine": 328,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo_probabilitate_random::obtine_toate_ofertele",
+                  "decoratedName": "?obtine_toate_ofertele@Repo_probabilitate_random@@UEAAAEBV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26489",
+          "message": {
+            "text": "Don't dereference a pointer that may be invalid: '*<begin>$L0'. '<begin>$L0' may have been invalidated at line 344 (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 339,
+                  "startColumn": 35,
+                  "endLine": 339,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo_probabilitate_random::sterge_oferta",
+                  "decoratedName": "?sterge_oferta@Repo_probabilitate_random@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 344,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 '@(*this).toate_ofertele' in call to 'Oferta::Oferta' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 339,
+                  "startColumn": 35,
+                  "endLine": 339,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo_probabilitate_random::sterge_oferta",
+                  "decoratedName": "?sterge_oferta@Repo_probabilitate_random@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 344,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 339,
+                  "startColumn": 35,
+                  "endLine": 339,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo_probabilitate_random::sterge_oferta",
+                  "decoratedName": "?sterge_oferta@Repo_probabilitate_random@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 339,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26457",
+          "message": {
+            "text": "(void) should not be used to ignore return values, use 'std::ignore =' instead (es.48)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 360,
+                  "startColumn": 2,
+                  "endLine": 360,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo_probabilitate_random::distruge_toate_ofertele",
+                  "decoratedName": "?distruge_toate_ofertele@Repo_probabilitate_random@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 368,
+                  "startColumn": 35,
+                  "endLine": 368,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo_probabilitate_random::modifica_destinatie_oferta",
+                  "decoratedName": "?modifica_destinatie_oferta@Repo_probabilitate_random@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 368,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 387,
+                  "startColumn": 35,
+                  "endLine": 387,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo_probabilitate_random::modifica_tip_oferta",
+                  "decoratedName": "?modifica_tip_oferta@Repo_probabilitate_random@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 387,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                },
+                "region": {
+                  "startLine": 407,
+                  "startColumn": 35,
+                  "endLine": 407,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repo_probabilitate_random::modifica_pret_oferta",
+                  "decoratedName": "?modifica_pret_oferta@Repo_probabilitate_random@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+                          },
+                          "region": {
+                            "startLine": 407,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31329.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/oferta_repo.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "4723395e9615c769bfdbaa02b6a338d790339c8d84f71a7d03578108d9526341"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/ubb/anul_1/sem_2/oop/lab 8-9/agentie_de_turism-lab 8-9/agentie_de_turism/oferte_repo.h"
+          },
+          "hashes": {
+            "sha-256": "1fc9888546240b43899fd1dfc6983b3d4871b58aef77389a0e50fb2cc74d06a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/ubb/anul_1/sem_2/oop/lab 8-9/agentie_de_turism-lab 8-9/agentie_de_turism/oferta.h"
+          },
+          "hashes": {
+            "sha-256": "449a542665c72692a0f7e4c8d11bd8c70ed68b5fa6bdbe8c8c8aec7fea779e4b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/ubb/anul_1/sem_2/oop/lab 8-9/agentie_de_turism-lab 8-9/agentie_de_turism/vector_dinamic.h"
+          },
+          "hashes": {
+            "sha-256": "ed927b0a5543cd6f24765f8de89f7c107c4d7b945c5545958166b66bfd5fd51a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/ubb/anul_1/sem_2/oop/lab 8-9/agentie_de_turism-lab 8-9/agentie_de_turism/validator.h"
+          },
+          "hashes": {
+            "sha-256": "87296864cf68b2be4fd14667905b0ffa9593a2f83963ac4ec30b63aa10c69a4d"
+          }
+        }
+      ]
+    }
+  ]
+}

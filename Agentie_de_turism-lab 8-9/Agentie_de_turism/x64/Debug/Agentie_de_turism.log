@@ -1,0 +1,92 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Agentie_de_turism.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Agentie_de_turism.cpp
+  interfata_utilizator.cpp
+  wishlist.cpp
+  oferta.cpp
+  oferta_repo.cpp
+  oferte_store.cpp
+  validator.cpp
+  vector_dinamic.cpp
+  Running Code Analysis for C/C++...
+  Generating Code...
+  Agentie_de_turism.vcxproj -> C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\x64\Debug\Agentie_de_turism-lab 8-9.exe
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.h(29): warning C26447: The function is declared 'noexcept' but calls function 'obtine_toate_ofertele()' which may throw exceptions (f.6).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.h(42): warning C26489: Don't dereference a pointer that may be invalid: 'allotemp.2'. '(temporary 2)' may have been invalidated at line 42 (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.h(42): warning C26487: Don't return a pointer '(40's result)' that may be invalid (lifetime.4).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\Agentie_de_turism.cpp(34): warning C26477: Use 'nullptr' rather than 0 or NULL (es.47).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\Agentie_de_turism.cpp(34): warning C26472: Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\interfata_utilizator.cpp(65): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate' in call to 'Oferta::Oferta' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\interfata_utilizator.cpp(65): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\interfata_utilizator.cpp(88): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@toate_ofertele' in call to 'Oferta::Oferta' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\interfata_utilizator.cpp(88): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\interfata_utilizator.cpp(136): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@(temporary 2)' in call to 'Oferta::Oferta' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\interfata_utilizator.cpp(136): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\interfata_utilizator.cpp(155): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@(temporary 1)' in call to 'Oferta::Oferta' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\interfata_utilizator.cpp(155): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\interfata_utilizator.cpp(218): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_filtrate' in call to 'Oferta::Oferta' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\interfata_utilizator.cpp(218): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\interfata_utilizator.cpp(230): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_filtrate' in call to 'Oferta::Oferta' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\interfata_utilizator.cpp(230): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\wishlist.cpp(21): warning C26493: Don't use C-style casts (type.4).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\wishlist.cpp(23): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\wishlist.cpp(32): warning C26823: Dereferencing a possibly null pointer '<begin>$L1' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(18): warning C26436: The type 'class Oferte_repo' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(38): warning C26489: Don't dereference a pointer that may be invalid: 'allotemp.4'. '(temporary 4)' may have been invalidated at line 38 (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(38): warning C26487: Don't return a pointer '(32's result)' that may be invalid (lifetime.4).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(34): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(46): warning C26440: Function 'Oferte_repo::obtine_toate_ofertele' can be declared 'noexcept' (f.6).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(53): warning C26489: Don't dereference a pointer that may be invalid: '*<begin>$L0'. '<begin>$L0' may have been invalidated at line 58 (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(53): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@(*this).toate_ofertele' in call to 'Oferta::Oferta' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(53): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(70): warning C26440: Function 'Oferte_repo::distruge_toate_ofertele' can be declared 'noexcept' (f.6).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(72): warning C26457: (void) should not be used to ignore return values, use 'std::ignore =' instead (es.48).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(182): warning C26433: Function 'Oferte_repo::undo' should be marked with 'override' (c.128).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(186): warning C26823: Dereferencing a possibly null pointer 'result.->' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(221): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(238): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(256): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(285): warning C26436: The type 'class Repo_probabilitate_random' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(291): warning C26823: Dereferencing a possibly null pointer 'result.->' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(311): warning C26433: Function 'Repo_probabilitate_random::gaseste_oferta' should be marked with 'override' (c.128).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(320): warning C26489: Don't dereference a pointer that may be invalid: 'allotemp.4'. '(temporary 4)' may have been invalidated at line 320 (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(320): warning C26487: Don't return a pointer '(311's result)' that may be invalid (lifetime.4).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(316): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(328): warning C26440: Function 'Repo_probabilitate_random::obtine_toate_ofertele' can be declared 'noexcept' (f.6).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(339): warning C26489: Don't dereference a pointer that may be invalid: '*<begin>$L0'. '<begin>$L0' may have been invalidated at line 344 (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(339): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@(*this).toate_ofertele' in call to 'Oferta::Oferta' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(339): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(360): warning C26457: (void) should not be used to ignore return values, use 'std::ignore =' instead (es.48).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(368): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(387): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferta_repo.cpp(407): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.cpp(27): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@copie_oferte' in call to 'icall' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.cpp(28): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@copie_oferte' in call to 'Oferta::Oferta' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.cpp(29): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@copie_oferte' in call to 'Oferta::operator=' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.cpp(41): warning C26822: Dereferencing a null pointer 'nullptr' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.cpp(48): warning C26822: Dereferencing a null pointer 'nullptr' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.cpp(57): warning C26822: Dereferencing a null pointer 'nullptr' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.cpp(77): warning C26440: Function '`Oferte_store::filtreaza_dupa_pret_mai_mic'::`2'::<lambda_1>::operator()' can be declared 'noexcept' (f.6).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.cpp(139): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate_dupa_denumire' in call to 'Oferta::obtine_denumire' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.cpp(140): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate_dupa_denumire' in call to 'Oferta::obtine_denumire' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.cpp(141): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate_dupa_denumire' in call to 'Oferta::obtine_denumire' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.cpp(143): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate_dupa_denumire' in call to 'Oferta::obtine_destinatie' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.cpp(144): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate_dupa_denumire' in call to 'Oferta::obtine_destinatie' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.cpp(145): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate_dupa_denumire' in call to 'Oferta::obtine_destinatie' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.cpp(147): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate_dupa_tip_si_pret' in call to 'Oferta::obtine_denumire' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.cpp(148): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate_dupa_tip_si_pret' in call to 'Oferta::obtine_denumire' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.cpp(149): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate_dupa_tip_si_pret' in call to 'Oferta::obtine_denumire' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.cpp(157): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\oferte_store.cpp(170): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\vector_dinamic.cpp(9): warning C26455: Default constructor should not throw. Declare it 'noexcept' (f.6).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\vector_dinamic.cpp(72): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\vector_dinamic.cpp(72): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\vector_dinamic.cpp(91): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\vector_dinamic.cpp(91): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\vector_dinamic.cpp(188): warning C26457: (void) should not be used to ignore return values, use 'std::ignore =' instead (es.48).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\vector_dinamic.cpp(189): warning C26457: (void) should not be used to ignore return values, use 'std::ignore =' instead (es.48).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\vector_dinamic.cpp(190): warning C26457: (void) should not be used to ignore return values, use 'std::ignore =' instead (es.48).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\vector_dinamic.cpp(170): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 'alt_iterator' in call to 'IteratorVector::operator==' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\vector_dinamic.cpp(171): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 'iterator' in call to 'IteratorVector::operator*' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\vector_dinamic.cpp(185): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 'alt_iterator' in call to 'IteratorVector::operator!=' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\vector_dinamic.cpp(186): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 'iterator' in call to 'IteratorVector::este_valid' may be invalid (lifetime.3).
+C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\vector_dinamic.cpp(187): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 0 'iterator' in call to 'IteratorVector::operator++' may be invalid (lifetime.3).

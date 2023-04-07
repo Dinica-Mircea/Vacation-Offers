@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Vector_Dinamic::{ctor}</FUNCTION>
+    <DECORATED>??0Vector_Dinamic@@QEAA@XZ</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>72</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Vector_Dinamic::obtine_TElement</FUNCTION>
+    <DECORATED>?obtine_TElement@Vector_Dinamic@@QEBAAEAVOferta@@H@Z</DECORATED>
+    <FUNCLINE>71</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>72</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Vector_Dinamic::obtine_TElement</FUNCTION>
+    <DECORATED>?obtine_TElement@Vector_Dinamic@@QEBAAEAVOferta@@H@Z</DECORATED>
+    <FUNCLINE>71</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Vector_Dinamic::asigura_capacitatea_vectorului</FUNCTION>
+    <DECORATED>?asigura_capacitatea_vectorului@Vector_Dinamic@@AEAAXXZ</DECORATED>
+    <FUNCLINE>83</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Vector_Dinamic::asigura_capacitatea_vectorului</FUNCTION>
+    <DECORATED>?asigura_capacitatea_vectorului@Vector_Dinamic@@AEAAXXZ</DECORATED>
+    <FUNCLINE>83</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>188</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26457</DEFECTCODE>
+    <DESCRIPTION>(void) should not be used to ignore return values, use 'std::ignore =' instead (es.48).</DESCRIPTION>
+    <FUNCTION>test_vector_dinamic</FUNCTION>
+    <DECORATED>?test_vector_dinamic@@YAXXZ</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>189</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26457</DEFECTCODE>
+    <DESCRIPTION>(void) should not be used to ignore return values, use 'std::ignore =' instead (es.48).</DESCRIPTION>
+    <FUNCTION>test_vector_dinamic</FUNCTION>
+    <DECORATED>?test_vector_dinamic@@YAXXZ</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>190</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26457</DEFECTCODE>
+    <DESCRIPTION>(void) should not be used to ignore return values, use 'std::ignore =' instead (es.48).</DESCRIPTION>
+    <FUNCTION>test_vector_dinamic</FUNCTION>
+    <DECORATED>?test_vector_dinamic@@YAXXZ</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>170</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 'alt_iterator' in call to 'IteratorVector::operator==' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>test_vector_dinamic</FUNCTION>
+    <DECORATED>?test_vector_dinamic@@YAXXZ</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>vector_dinamic.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>171</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 'iterator' in call to 'IteratorVector::operator*' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>test_vector_dinamic</FUNCTION>
+    <DECORATED>?test_vector_dinamic@@YAXXZ</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>vector_dinamic.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>vector_dinamic.cpp</FILENAME>
+        <LINE>170</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>185</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 'alt_iterator' in call to 'IteratorVector::operator!=' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>test_vector_dinamic</FUNCTION>
+    <DECORATED>?test_vector_dinamic@@YAXXZ</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>vector_dinamic.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>186</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 'iterator' in call to 'IteratorVector::este_valid' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>test_vector_dinamic</FUNCTION>
+    <DECORATED>?test_vector_dinamic@@YAXXZ</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>vector_dinamic.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>vector_dinamic.cpp</FILENAME>
+        <LINE>185</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>187</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 'iterator' in call to 'IteratorVector::operator++' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>test_vector_dinamic</FUNCTION>
+    <DECORATED>?test_vector_dinamic@@YAXXZ</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>vector_dinamic.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>vector_dinamic.cpp</FILENAME>
+        <LINE>185</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,579 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26455",
+          "message": {
+            "text": "Default constructor should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 17,
+                  "endLine": 9,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Vector_Dinamic::{ctor}",
+                  "decoratedName": "??0Vector_Dinamic@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                },
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 9,
+                  "endLine": 72,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Vector_Dinamic::obtine_TElement",
+                  "decoratedName": "?obtine_TElement@Vector_Dinamic@@QEBAAEAVOferta@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                },
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 9,
+                  "endLine": 72,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Vector_Dinamic::obtine_TElement",
+                  "decoratedName": "?obtine_TElement@Vector_Dinamic@@QEBAAEAVOferta@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                },
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 3,
+                  "endLine": 91,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Vector_Dinamic::asigura_capacitatea_vectorului",
+                  "decoratedName": "?asigura_capacitatea_vectorului@Vector_Dinamic@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                },
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 3,
+                  "endLine": 91,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Vector_Dinamic::asigura_capacitatea_vectorului",
+                  "decoratedName": "?asigura_capacitatea_vectorului@Vector_Dinamic@@AEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26457",
+          "message": {
+            "text": "(void) should not be used to ignore return values, use 'std::ignore =' instead (es.48)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                },
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 2,
+                  "endLine": 188,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_vector_dinamic",
+                  "decoratedName": "?test_vector_dinamic@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26457",
+          "message": {
+            "text": "(void) should not be used to ignore return values, use 'std::ignore =' instead (es.48)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                },
+                "region": {
+                  "startLine": 189,
+                  "startColumn": 2,
+                  "endLine": 189,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_vector_dinamic",
+                  "decoratedName": "?test_vector_dinamic@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26457",
+          "message": {
+            "text": "(void) should not be used to ignore return values, use 'std::ignore =' instead (es.48)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                },
+                "region": {
+                  "startLine": 190,
+                  "startColumn": 2,
+                  "endLine": 190,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_vector_dinamic",
+                  "decoratedName": "?test_vector_dinamic@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 'alt_iterator' in call to 'IteratorVector::operator==' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                },
+                "region": {
+                  "startLine": 170,
+                  "startColumn": 2,
+                  "endLine": 170,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_vector_dinamic",
+                  "decoratedName": "?test_vector_dinamic@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                          },
+                          "region": {
+                            "startLine": 169,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 'iterator' in call to 'IteratorVector::operator*' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                },
+                "region": {
+                  "startLine": 171,
+                  "startColumn": 2,
+                  "endLine": 171,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_vector_dinamic",
+                  "decoratedName": "?test_vector_dinamic@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                          },
+                          "region": {
+                            "startLine": 169,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                          },
+                          "region": {
+                            "startLine": 170,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 'alt_iterator' in call to 'IteratorVector::operator!=' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                },
+                "region": {
+                  "startLine": 185,
+                  "startColumn": 2,
+                  "endLine": 185,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_vector_dinamic",
+                  "decoratedName": "?test_vector_dinamic@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                          },
+                          "region": {
+                            "startLine": 169,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 'iterator' in call to 'IteratorVector::este_valid' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                },
+                "region": {
+                  "startLine": 186,
+                  "startColumn": 2,
+                  "endLine": 186,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_vector_dinamic",
+                  "decoratedName": "?test_vector_dinamic@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                          },
+                          "region": {
+                            "startLine": 169,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                          },
+                          "region": {
+                            "startLine": 185,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26486",
+          "message": {
+            "text": "Don't pass a pointer that may be invalid to a function. Parameter 0 'iterator' in call to 'IteratorVector::operator++' may be invalid (lifetime.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                },
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 2,
+                  "endLine": 187,
+                  "endColumn": 4
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_vector_dinamic",
+                  "decoratedName": "?test_vector_dinamic@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                          },
+                          "region": {
+                            "startLine": 169,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+                          },
+                          "region": {
+                            "startLine": 185,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31329.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/UBB/Anul_1/Sem_2/OOP/lab 8-9/Agentie_de_turism-lab 8-9/Agentie_de_turism/vector_dinamic.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8daebdae1fb6a3ee4a3fdebe48baef9d6857ae16202ac38b0a1e99a17651015d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/ubb/anul_1/sem_2/oop/lab 8-9/agentie_de_turism-lab 8-9/agentie_de_turism/vector_dinamic.h"
+          },
+          "hashes": {
+            "sha-256": "ed927b0a5543cd6f24765f8de89f7c107c4d7b945c5545958166b66bfd5fd51a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/ubb/anul_1/sem_2/oop/lab 8-9/agentie_de_turism-lab 8-9/agentie_de_turism/oferta.h"
+          },
+          "hashes": {
+            "sha-256": "449a542665c72692a0f7e4c8d11bd8c70ed68b5fa6bdbe8c8c8aec7fea779e4b"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+[2022-04-16 23:51:58] [info] Start Program:
+Path:"C:\UBB\Anul 1\Sem 2\OOP\lab 6-7\Agentie_de_turism\x64\Debug\Agentie_de_turism.exe"
+Arguments:
+Working directory: "C:\UBB\Anul 1\Sem 2\OOP\lab 6-7\Agentie_de_turism\Agentie_de_turism\"
+Modules: Selected: C:\UBB\Anul 1\Sem 2\OOP\lab 6-7\Agentie_de_turism\x64\Debug\Agentie_de_turism.exe Excluded: 
+Sources: Selected: C:\UBB\Anul 1\Sem 2\OOP\lab 6-7\Agentie_de_turism\Agentie_de_turism Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Mircea\AppData\Local\Temp\hxs2iidi.0kx 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2022-04-16 23:51:58] [info] Module: C:\UBB\Anul 1\Sem 2\OOP\lab 6-7\Agentie_de_turism\x64\Debug\Agentie_de_turism.exe is selected because it matches selected pattern: C:\UBB\Anul 1\Sem 2\OOP\lab 6-7\Agentie_de_turism\x64\Debug\Agentie_de_turism.exe
+[2022-04-16 23:51:59] [info] ----------------------------------------------------
+[2022-04-16 23:51:59] [info] Coverage binary generated in file: C:\Users\Mircea\AppData\Local\Temp\hxs2iidi.0kx
+[2022-04-16 23:51:59] [info] ----------------------------------------------------

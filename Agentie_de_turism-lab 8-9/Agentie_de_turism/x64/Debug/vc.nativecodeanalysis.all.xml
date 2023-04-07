@@ -1,0 +1,1552 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.h</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26447</DEFECTCODE>
+    <DESCRIPTION>The function is declared 'noexcept' but calls function 'obtine_toate_ofertele()' which may throw exceptions (f.6).</DESCRIPTION>
+    <FUNCTION>Oferte_store::obtine_toate_ofertele</FUNCTION>
+    <DECORATED>?obtine_toate_ofertele@Oferte_store@@QEAAAEBV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@XZ</DECORATED>
+    <FUNCLINE>28</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.h</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'allotemp.2'. '(temporary 2)' may have been invalidated at line 42 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Oferte_store::gaseste_oferta</FUNCTION>
+    <DECORATED>?gaseste_oferta@Oferte_store@@QEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>40</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.h</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.h</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26487</DEFECTCODE>
+    <DESCRIPTION>Don't return a pointer '(40's result)' that may be invalid (lifetime.4).</DESCRIPTION>
+    <FUNCTION>Oferte_store::gaseste_oferta</FUNCTION>
+    <DECORATED>?gaseste_oferta@Oferte_store@@QEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>40</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.h</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>Agentie_de_turism.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26477</DEFECTCODE>
+    <DESCRIPTION>Use 'nullptr' rather than 0 or NULL (es.47).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <ADDITIONALINFO>
+      <isSimpleExpression>true</isSimpleExpression>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>Agentie_de_turism.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26472</DEFECTCODE>
+    <DESCRIPTION>Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>interfata_utilizator.cpp</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate' in call to 'Oferta::Oferta' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>consola_UI::sortare_oferte_UI</FUNCTION>
+    <DECORATED>?sortare_oferte_UI@consola_UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>46</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>interfata_utilizator.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>interfata_utilizator.cpp</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>consola_UI::sortare_oferte_UI</FUNCTION>
+    <DECORATED>?sortare_oferte_UI@consola_UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>46</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>interfata_utilizator.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>interfata_utilizator.cpp</FILENAME>
+      <LINE>88</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@toate_ofertele' in call to 'Oferta::Oferta' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>consola_UI::afiseaza_toate_ofertele_UI</FUNCTION>
+    <DECORATED>?afiseaza_toate_ofertele_UI@consola_UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>81</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>interfata_utilizator.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>interfata_utilizator.cpp</FILENAME>
+      <LINE>88</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>consola_UI::afiseaza_toate_ofertele_UI</FUNCTION>
+    <DECORATED>?afiseaza_toate_ofertele_UI@consola_UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>81</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>interfata_utilizator.cpp</FILENAME>
+        <LINE>88</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>interfata_utilizator.cpp</FILENAME>
+      <LINE>136</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@(temporary 2)' in call to 'Oferta::Oferta' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>consola_UI::adauga_in_wishlist</FUNCTION>
+    <DECORATED>?adauga_in_wishlist@consola_UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>131</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>interfata_utilizator.cpp</FILENAME>
+        <LINE>136</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>interfata_utilizator.cpp</FILENAME>
+      <LINE>136</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>consola_UI::adauga_in_wishlist</FUNCTION>
+    <DECORATED>?adauga_in_wishlist@consola_UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>131</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>interfata_utilizator.cpp</FILENAME>
+        <LINE>136</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>interfata_utilizator.cpp</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@(temporary 1)' in call to 'Oferta::Oferta' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>consola_UI::genereaza_wishlist</FUNCTION>
+    <DECORATED>?genereaza_wishlist@consola_UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>147</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>interfata_utilizator.cpp</FILENAME>
+        <LINE>155</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>interfata_utilizator.cpp</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>consola_UI::genereaza_wishlist</FUNCTION>
+    <DECORATED>?genereaza_wishlist@consola_UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>147</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>interfata_utilizator.cpp</FILENAME>
+        <LINE>155</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>interfata_utilizator.cpp</FILENAME>
+      <LINE>218</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_filtrate' in call to 'Oferta::Oferta' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>consola_UI::filtrare_pret_mai_mic</FUNCTION>
+    <DECORATED>?filtrare_pret_mai_mic@consola_UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>211</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>interfata_utilizator.cpp</FILENAME>
+        <LINE>217</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>interfata_utilizator.cpp</FILENAME>
+      <LINE>218</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>consola_UI::filtrare_pret_mai_mic</FUNCTION>
+    <DECORATED>?filtrare_pret_mai_mic@consola_UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>211</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>interfata_utilizator.cpp</FILENAME>
+        <LINE>218</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>interfata_utilizator.cpp</FILENAME>
+      <LINE>230</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_filtrate' in call to 'Oferta::Oferta' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>consola_UI::filtrare_destinatie</FUNCTION>
+    <DECORATED>?filtrare_destinatie@consola_UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>224</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>interfata_utilizator.cpp</FILENAME>
+        <LINE>229</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>interfata_utilizator.cpp</FILENAME>
+      <LINE>230</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>consola_UI::filtrare_destinatie</FUNCTION>
+    <DECORATED>?filtrare_destinatie@consola_UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>224</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>interfata_utilizator.cpp</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>wishlist.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>wishlist_oferte::genereaza_cos</FUNCTION>
+    <DECORATED>?genereaza_cos@wishlist_oferte@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>wishlist.cpp</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>wishlist_oferte::genereaza_cos</FUNCTION>
+    <DECORATED>?genereaza_cos@wishlist_oferte@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>wishlist.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>wishlist.cpp</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>wishlist_oferte::genereaza_cos</FUNCTION>
+    <DECORATED>?genereaza_cos@wishlist_oferte@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>wishlist.cpp</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26436</DEFECTCODE>
+    <DESCRIPTION>The type 'class Oferte_repo' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).</DESCRIPTION>
+    <FUNCTION>Oferte_repo::adauga_oferta</FUNCTION>
+    <DECORATED>?adauga_oferta@Oferte_repo@@UEAAXAEBVOferta@@@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'allotemp.4'. '(temporary 4)' may have been invalidated at line 38 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Oferte_repo::gaseste_oferta</FUNCTION>
+    <DECORATED>?gaseste_oferta@Oferte_repo@@UEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>26487</DEFECTCODE>
+    <DESCRIPTION>Don't return a pointer '(32's result)' that may be invalid (lifetime.4).</DESCRIPTION>
+    <FUNCTION>Oferte_repo::gaseste_oferta</FUNCTION>
+    <DECORATED>?gaseste_oferta@Oferte_repo@@UEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Oferte_repo::gaseste_oferta</FUNCTION>
+    <DECORATED>?gaseste_oferta@Oferte_repo@@UEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>46</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Oferte_repo::obtine_toate_ofertele' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Oferte_repo::obtine_toate_ofertele</FUNCTION>
+    <DECORATED>?obtine_toate_ofertele@Oferte_repo@@UEAAAEBV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@XZ</DECORATED>
+    <FUNCLINE>46</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: '*&lt;begin&gt;$L0'. '&lt;begin&gt;$L0' may have been invalidated at line 58 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Oferte_repo::sterge_oferta</FUNCTION>
+    <DECORATED>?sterge_oferta@Oferte_repo@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>50</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@(*this).toate_ofertele' in call to 'Oferta::Oferta' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>Oferte_repo::sterge_oferta</FUNCTION>
+    <DECORATED>?sterge_oferta@Oferte_repo@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>50</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Oferte_repo::sterge_oferta</FUNCTION>
+    <DECORATED>?sterge_oferta@Oferte_repo@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>50</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>70</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Oferte_repo::distruge_toate_ofertele' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Oferte_repo::distruge_toate_ofertele</FUNCTION>
+    <DECORATED>?distruge_toate_ofertele@Oferte_repo@@UEAAXXZ</DECORATED>
+    <FUNCLINE>70</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>72</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26457</DEFECTCODE>
+    <DESCRIPTION>(void) should not be used to ignore return values, use 'std::ignore =' instead (es.48).</DESCRIPTION>
+    <FUNCTION>Oferte_repo::distruge_toate_ofertele</FUNCTION>
+    <DECORATED>?distruge_toate_ofertele@Oferte_repo@@UEAAXXZ</DECORATED>
+    <FUNCLINE>70</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>182</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26433</DEFECTCODE>
+    <DESCRIPTION>Function 'Oferte_repo::undo' should be marked with 'override' (c.128).</DESCRIPTION>
+    <FUNCTION>Oferte_repo::undo</FUNCTION>
+    <DECORATED>?undo@Oferte_repo@@UEAAXXZ</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>186</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'result.-&gt;' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Oferte_repo::undo</FUNCTION>
+    <DECORATED>?undo@Oferte_repo@@UEAAXXZ</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>182</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>186</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>186</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>186</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>221</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Oferte_repo::modifica_destinatie_oferta</FUNCTION>
+    <DECORATED>?modifica_destinatie_oferta@Oferte_repo@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z</DECORATED>
+    <FUNCLINE>218</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>221</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>238</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Oferte_repo::modifica_tip_oferta</FUNCTION>
+    <DECORATED>?modifica_tip_oferta@Oferte_repo@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z</DECORATED>
+    <FUNCLINE>235</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>256</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Oferte_repo::modifica_pret_oferta</FUNCTION>
+    <DECORATED>?modifica_pret_oferta@Oferte_repo@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@M@Z</DECORATED>
+    <FUNCLINE>253</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>256</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>285</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26436</DEFECTCODE>
+    <DESCRIPTION>The type 'class Repo_probabilitate_random' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).</DESCRIPTION>
+    <FUNCTION>Repo_probabilitate_random::undo</FUNCTION>
+    <DECORATED>?undo@Repo_probabilitate_random@@UEAAXXZ</DECORATED>
+    <FUNCLINE>285</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>291</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'result.-&gt;' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Repo_probabilitate_random::undo</FUNCTION>
+    <DECORATED>?undo@Repo_probabilitate_random@@UEAAXXZ</DECORATED>
+    <FUNCLINE>285</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>285</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>286</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>288</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>288</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>311</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>26433</DEFECTCODE>
+    <DESCRIPTION>Function 'Repo_probabilitate_random::gaseste_oferta' should be marked with 'override' (c.128).</DESCRIPTION>
+    <FUNCTION>Repo_probabilitate_random::gaseste_oferta</FUNCTION>
+    <DECORATED>?gaseste_oferta@Repo_probabilitate_random@@UEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>311</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>320</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'allotemp.4'. '(temporary 4)' may have been invalidated at line 320 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Repo_probabilitate_random::gaseste_oferta</FUNCTION>
+    <DECORATED>?gaseste_oferta@Repo_probabilitate_random@@UEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>311</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>320</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>320</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>26487</DEFECTCODE>
+    <DESCRIPTION>Don't return a pointer '(311's result)' that may be invalid (lifetime.4).</DESCRIPTION>
+    <FUNCTION>Repo_probabilitate_random::gaseste_oferta</FUNCTION>
+    <DECORATED>?gaseste_oferta@Repo_probabilitate_random@@UEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>311</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>320</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>316</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Repo_probabilitate_random::gaseste_oferta</FUNCTION>
+    <DECORATED>?gaseste_oferta@Repo_probabilitate_random@@UEAAAEBVOferta@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>311</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>316</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>328</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Repo_probabilitate_random::obtine_toate_ofertele' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Repo_probabilitate_random::obtine_toate_ofertele</FUNCTION>
+    <DECORATED>?obtine_toate_ofertele@Repo_probabilitate_random@@UEAAAEBV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@XZ</DECORATED>
+    <FUNCLINE>328</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>339</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: '*&lt;begin&gt;$L0'. '&lt;begin&gt;$L0' may have been invalidated at line 344 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Repo_probabilitate_random::sterge_oferta</FUNCTION>
+    <DECORATED>?sterge_oferta@Repo_probabilitate_random@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>334</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>344</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>339</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@(*this).toate_ofertele' in call to 'Oferta::Oferta' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>Repo_probabilitate_random::sterge_oferta</FUNCTION>
+    <DECORATED>?sterge_oferta@Repo_probabilitate_random@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>334</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>344</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>339</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Repo_probabilitate_random::sterge_oferta</FUNCTION>
+    <DECORATED>?sterge_oferta@Repo_probabilitate_random@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>334</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>339</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>360</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26457</DEFECTCODE>
+    <DESCRIPTION>(void) should not be used to ignore return values, use 'std::ignore =' instead (es.48).</DESCRIPTION>
+    <FUNCTION>Repo_probabilitate_random::distruge_toate_ofertele</FUNCTION>
+    <DECORATED>?distruge_toate_ofertele@Repo_probabilitate_random@@UEAAXXZ</DECORATED>
+    <FUNCLINE>356</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>368</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Repo_probabilitate_random::modifica_destinatie_oferta</FUNCTION>
+    <DECORATED>?modifica_destinatie_oferta@Repo_probabilitate_random@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z</DECORATED>
+    <FUNCLINE>363</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>387</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Repo_probabilitate_random::modifica_tip_oferta</FUNCTION>
+    <DECORATED>?modifica_tip_oferta@Repo_probabilitate_random@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z</DECORATED>
+    <FUNCLINE>382</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferta_repo.cpp</FILENAME>
+      <LINE>407</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Repo_probabilitate_random::modifica_pret_oferta</FUNCTION>
+    <DECORATED>?modifica_pret_oferta@Repo_probabilitate_random@@UEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@M@Z</DECORATED>
+    <FUNCLINE>402</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferta_repo.cpp</FILENAME>
+        <LINE>407</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.cpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@copie_oferte' in call to 'icall' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>Oferte_store::sortare_generala</FUNCTION>
+    <DECORATED>?sortare_generala@Oferte_store@@AEAA?AV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@P6A_NAEBVOferta@@0@Z@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.cpp</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@copie_oferte' in call to 'Oferta::Oferta' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>Oferte_store::sortare_generala</FUNCTION>
+    <DECORATED>?sortare_generala@Oferte_store@@AEAA?AV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@P6A_NAEBVOferta@@0@Z@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.cpp</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@copie_oferte' in call to 'Oferta::operator=' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>Oferte_store::sortare_generala</FUNCTION>
+    <DECORATED>?sortare_generala@Oferte_store@@AEAA?AV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@P6A_NAEBVOferta@@0@Z@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>26822</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a null pointer 'nullptr' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>_Closure_wrapper_1ca4c2dc_1::&lt;lambda_invoker_cdecl&gt;</FUNCTION>
+    <DECORATED>?&lt;lambda_invoker_cdecl&gt;@_Closure_wrapper_1ca4c2dc_1@@CA_NAEBVOferta@@0@Z</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.cpp</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>26822</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a null pointer 'nullptr' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>_Closure_wrapper_1ca4c2dc_2::&lt;lambda_invoker_cdecl&gt;</FUNCTION>
+    <DECORATED>?&lt;lambda_invoker_cdecl&gt;@_Closure_wrapper_1ca4c2dc_2@@CA_NAEBVOferta@@0@Z</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.cpp</FILENAME>
+      <LINE>57</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>26822</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a null pointer 'nullptr' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>_Closure_wrapper_1ca4c2dc_3::&lt;lambda_invoker_cdecl&gt;</FUNCTION>
+    <DECORATED>?&lt;lambda_invoker_cdecl&gt;@_Closure_wrapper_1ca4c2dc_3@@CA_NAEBVOferta@@0@Z</DECORATED>
+    <FUNCLINE>57</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.cpp</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function '`Oferte_store::filtreaza_dupa_pret_mai_mic'::`2'::&lt;lambda_1&gt;::operator()' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Oferte_store::filtreaza_dupa_pret_mai_mic::&lt;lambda_1&gt;::()</FUNCTION>
+    <DECORATED>??R&lt;lambda_1&gt;@?1??filtreaza_dupa_pret_mai_mic@Oferte_store@@QEAA?AV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@M@Z@QEBA@AEBVOferta@@@Z</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.cpp</FILENAME>
+      <LINE>139</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate_dupa_denumire' in call to 'Oferta::obtine_denumire' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>test_sortare_store</FUNCTION>
+    <DECORATED>?test_sortare_store@@YAXXZ</DECORATED>
+    <FUNCLINE>127</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>138</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.cpp</FILENAME>
+      <LINE>140</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate_dupa_denumire' in call to 'Oferta::obtine_denumire' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>test_sortare_store</FUNCTION>
+    <DECORATED>?test_sortare_store@@YAXXZ</DECORATED>
+    <FUNCLINE>127</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>138</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.cpp</FILENAME>
+      <LINE>141</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate_dupa_denumire' in call to 'Oferta::obtine_denumire' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>test_sortare_store</FUNCTION>
+    <DECORATED>?test_sortare_store@@YAXXZ</DECORATED>
+    <FUNCLINE>127</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>138</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.cpp</FILENAME>
+      <LINE>143</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate_dupa_denumire' in call to 'Oferta::obtine_destinatie' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>test_sortare_store</FUNCTION>
+    <DECORATED>?test_sortare_store@@YAXXZ</DECORATED>
+    <FUNCLINE>127</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>138</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.cpp</FILENAME>
+      <LINE>144</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate_dupa_denumire' in call to 'Oferta::obtine_destinatie' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>test_sortare_store</FUNCTION>
+    <DECORATED>?test_sortare_store@@YAXXZ</DECORATED>
+    <FUNCLINE>127</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>138</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.cpp</FILENAME>
+      <LINE>145</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate_dupa_denumire' in call to 'Oferta::obtine_destinatie' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>test_sortare_store</FUNCTION>
+    <DECORATED>?test_sortare_store@@YAXXZ</DECORATED>
+    <FUNCLINE>127</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>138</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.cpp</FILENAME>
+      <LINE>147</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate_dupa_tip_si_pret' in call to 'Oferta::obtine_denumire' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>test_sortare_store</FUNCTION>
+    <DECORATED>?test_sortare_store@@YAXXZ</DECORATED>
+    <FUNCLINE>127</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.cpp</FILENAME>
+      <LINE>148</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate_dupa_tip_si_pret' in call to 'Oferta::obtine_denumire' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>test_sortare_store</FUNCTION>
+    <DECORATED>?test_sortare_store@@YAXXZ</DECORATED>
+    <FUNCLINE>127</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.cpp</FILENAME>
+      <LINE>149</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 '@oferte_sortate_dupa_tip_si_pret' in call to 'Oferta::obtine_denumire' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>test_sortare_store</FUNCTION>
+    <DECORATED>?test_sortare_store@@YAXXZ</DECORATED>
+    <FUNCLINE>127</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>55</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.cpp</FILENAME>
+      <LINE>157</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Oferte_store::filtreaza_dupa_destinatie</FUNCTION>
+    <DECORATED>?filtreaza_dupa_destinatie@Oferte_store@@QEAA?AV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z</DECORATED>
+    <FUNCLINE>154</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>40</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>oferte_store.cpp</FILENAME>
+      <LINE>170</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '&lt;begin&gt;$L0' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>Oferte_store::salveaza_wishlist_in_fisier</FUNCTION>
+    <DECORATED>?salveaza_wishlist_in_fisier@Oferte_store@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@VOferta@@V?$allocator@VOferta@@@std@@@3@@Z</DECORATED>
+    <FUNCLINE>165</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>oferte_store.cpp</FILENAME>
+        <LINE>170</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Vector_Dinamic::{ctor}</FUNCTION>
+    <DECORATED>??0Vector_Dinamic@@QEAA@XZ</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>72</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Vector_Dinamic::obtine_TElement</FUNCTION>
+    <DECORATED>?obtine_TElement@Vector_Dinamic@@QEBAAEAVOferta@@H@Z</DECORATED>
+    <FUNCLINE>71</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>72</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Vector_Dinamic::obtine_TElement</FUNCTION>
+    <DECORATED>?obtine_TElement@Vector_Dinamic@@QEBAAEAVOferta@@H@Z</DECORATED>
+    <FUNCLINE>71</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Vector_Dinamic::asigura_capacitatea_vectorului</FUNCTION>
+    <DECORATED>?asigura_capacitatea_vectorului@Vector_Dinamic@@AEAAXXZ</DECORATED>
+    <FUNCLINE>83</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Vector_Dinamic::asigura_capacitatea_vectorului</FUNCTION>
+    <DECORATED>?asigura_capacitatea_vectorului@Vector_Dinamic@@AEAAXXZ</DECORATED>
+    <FUNCLINE>83</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>188</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26457</DEFECTCODE>
+    <DESCRIPTION>(void) should not be used to ignore return values, use 'std::ignore =' instead (es.48).</DESCRIPTION>
+    <FUNCTION>test_vector_dinamic</FUNCTION>
+    <DECORATED>?test_vector_dinamic@@YAXXZ</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>189</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26457</DEFECTCODE>
+    <DESCRIPTION>(void) should not be used to ignore return values, use 'std::ignore =' instead (es.48).</DESCRIPTION>
+    <FUNCTION>test_vector_dinamic</FUNCTION>
+    <DECORATED>?test_vector_dinamic@@YAXXZ</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>190</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26457</DEFECTCODE>
+    <DESCRIPTION>(void) should not be used to ignore return values, use 'std::ignore =' instead (es.48).</DESCRIPTION>
+    <FUNCTION>test_vector_dinamic</FUNCTION>
+    <DECORATED>?test_vector_dinamic@@YAXXZ</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>170</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 'alt_iterator' in call to 'IteratorVector::operator==' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>test_vector_dinamic</FUNCTION>
+    <DECORATED>?test_vector_dinamic@@YAXXZ</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>vector_dinamic.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>171</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 'iterator' in call to 'IteratorVector::operator*' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>test_vector_dinamic</FUNCTION>
+    <DECORATED>?test_vector_dinamic@@YAXXZ</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>vector_dinamic.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>vector_dinamic.cpp</FILENAME>
+        <LINE>170</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>185</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 'alt_iterator' in call to 'IteratorVector::operator!=' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>test_vector_dinamic</FUNCTION>
+    <DECORATED>?test_vector_dinamic@@YAXXZ</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>vector_dinamic.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>186</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 'iterator' in call to 'IteratorVector::este_valid' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>test_vector_dinamic</FUNCTION>
+    <DECORATED>?test_vector_dinamic@@YAXXZ</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>vector_dinamic.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>vector_dinamic.cpp</FILENAME>
+        <LINE>185</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+      <FILENAME>vector_dinamic.cpp</FILENAME>
+      <LINE>187</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 0 'iterator' in call to 'IteratorVector::operator++' may be invalid (lifetime.3).</DESCRIPTION>
+    <FUNCTION>test_vector_dinamic</FUNCTION>
+    <DECORATED>?test_vector_dinamic@@YAXXZ</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>vector_dinamic.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\UBB\Anul_1\Sem_2\OOP\lab 8-9\Agentie_de_turism-lab 8-9\Agentie_de_turism\</FILEPATH>
+        <FILENAME>vector_dinamic.cpp</FILENAME>
+        <LINE>185</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>

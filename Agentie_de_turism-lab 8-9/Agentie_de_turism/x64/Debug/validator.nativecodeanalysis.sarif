@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31329.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/ubb/anul_1/sem_2/oop/lab 8-9/agentie_de_turism-lab 8-9/agentie_de_turism/validator.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "11f376f834da47de1c1a7cd246583e308459c5915224d0d8f53238c62b3fbf54"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/ubb/anul_1/sem_2/oop/lab 8-9/agentie_de_turism-lab 8-9/agentie_de_turism/validator.h"
+          },
+          "hashes": {
+            "sha-256": "87296864cf68b2be4fd14667905b0ffa9593a2f83963ac4ec30b63aa10c69a4d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/ubb/anul_1/sem_2/oop/lab 8-9/agentie_de_turism-lab 8-9/agentie_de_turism/oferta.h"
+          },
+          "hashes": {
+            "sha-256": "449a542665c72692a0f7e4c8d11bd8c70ed68b5fa6bdbe8c8c8aec7fea779e4b"
+          }
+        }
+      ]
+    }
+  ]
+}
